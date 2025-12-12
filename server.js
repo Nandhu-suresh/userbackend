@@ -10,6 +10,7 @@ const app = express();
 app.use(express.json());
 const allowedOrigins = [
   "https://userfrontend-murex.vercel.app",
+  "https://velvety-phoenix-70d533.netlify.app",
   "http://localhost:5173",
 ];
 
