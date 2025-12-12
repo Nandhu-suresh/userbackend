@@ -9,7 +9,7 @@ const userRoutes = require('./routes/userRoutes');
 const app = express();
 app.use(express.json());
 const allowedOrigins = [
-  "https://userfrontend-murex.vercel.app/",
+  "https://userfrontend-murex.vercel.app",
   "http://localhost:5173",
 ];
 
